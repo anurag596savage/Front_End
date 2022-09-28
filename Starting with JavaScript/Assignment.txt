@@ -1,0 +1,220 @@
+
+
+1. What can we achieve using Javascript ?
+
+-> Websites + Presentation + Games + Mobile Apps
+
+2. What was the initial name for Javascript ?
+
+-> In September 1995, a Netscape programmer named Brandan Eich developed a new scripting language in just 10 days. It was originally named Mocha, but quickly became known as LiveScript and, later, JavaScript.
+
+3. When was ECMAscript officially released ?
+
+-> ECMAscript was released in 1997
+
+4. Which of the following variable name is not valid in JavaScript ?
+
+-> var my name = "John";
+
+5. Which of the following are basic data types in Javascript ?
+
+-> 
+    1. Number
+    2. Null
+    3. Undefined
+    4. String
+    5. Object
+    6. Boolean
+    7. Symbol
+
+
+6. How can you declare an integer ?
+
+-> var a = 10;
+
+7. Find out that if any of the lines below will produce an error on execution ?
+    A) var a = 10;
+    B) console.log(a)
+    C) a = " 'Coding Ninjas' ";
+    D) console.log(a);
+
+-> No error
+
+
+8. Write a program to swap the value of two variables.
+
+->
+
+var a = "5";
+var b = "10";
+
+var temp = a;
+a = b;
+b = temp;
+
+console.log("a is "+a);
+console.log("b is "+b);
+
+9.  What will be printed on the console from the following code -
+
+    var a;
+    console.log(a);
+
+-> undefined
+
+10. What will be printed on the console from the following code -
+
+    var a = "A";
+    console.log(65 - a);
+
+-> NaN
+
+11. What will the below statement print on the console ?
+
+    typeof("-1")
+
+-> 'string'
+
+12. What is the below line print on the console?
+    var a = null
+    typeof(a)
+
+-> 'object'
+
+
+13. What will be the output of the following code ?
+
+    var x = 4;
+    var y = x++;
+    y += 1;
+    console.log(y);
+
+->  5 
+    In this line: var y = x++ the value of x is assigned to y before x is incremented,
+    so y equals 4 on line 2, while x equals 5. Therefore on line 3, y now equals 5 instead of 6
+
+
+14. What will be output of the statement given below ?
+
+    console.log(20 + 12 * 2 - 10 / 2)
+
+-> 39
+
+15. What will the below line print on the console ?
+    console.log(1 + '1')
+
+-> 12
+
+16. What will the below line print on the console ?
+    var a;
+    console.log(a + " b");
+
+-> undefined b
+
+17. What will the below line print on the console ?
+    console.log(1 - '1')
+
+-> 0
+
+18. What will be the output for the below comparison in Javascript ?
+
+    "1" == 1
+
+-> true
+
+
+19. What will be the output for the below comparison in Javascript ?
+
+    null == undefined
+
+->   true
+
+    "null == undefined" means null is equal to undefined but not identical. In JavaScript, when you declare a variable without assigning any value. (that value is by default "undefined"), but When you assign a variable to a null value, then we are trying to convey that the variable is empty.So "null" and "undefined" both mean "nothing", so having them be equal makes intuitive sense.
+
+20. What will the below code produce on the console ? 
+
+    if( -1 ) {
+        console.log("true")
+    }
+    else {
+        console.log("false")
+    }
+
+-> true
+
+21. What will the below code produce on the console ?
+
+    if( "" ) {
+        console.log("true")
+    }
+    else {
+        console.log("false")
+    }
+
+-> false
+
+22. Which of the following 'for' loops would not produce any error ?
+
+
+    A) for(var i=0; i<5; ++i) { 
+        console.log("Hello") ; 
+    }
+
+    B) var i , j ;    
+    for(i=0, j = 10; i < 10, j < 100;) {
+    console.log("Hello"); 
+    }
+
+    C) var i ;    
+    for(i=0; i<5) { 
+        console.log("Hello");  
+    }
+
+    D) var i , j ;    
+    for(i=0, j=10; i<5; ++i) { 
+        console.log("Hello"); 
+    }
+
+-> A and D 
+
+23. Which of the following statements will print 'hii' at least once ?
+
+
+    A) var i=10 ; 
+    do { 
+        console.log("hii"); 
+        } while(i<5);
+
+    B) var i=0 ;     
+    while(i<5); { 
+        console.log("hii"); 
+        ++i ; 
+    }
+
+    C) for(i=0, j=10; i<5; ++i) { 
+        if(i<5)
+            break; 
+        console.log("hii"); 
+    }
+
+    D) var i=0 ;     
+    while(i<5) { 
+        console.log("hii"); 
+        ++i; 
+        }
+
+-> A and D
+
+24. What will be the output of the following code:
+    var a = 2;
+    var b = 0;
+    while(a <= 4){
+        a++;
+        b += a * 2;
+        console.log(b);
+    }
+
+->  6 14 24
+    The loop will run 3 times, before meeting the exit condition. 
+    First value of b will be 3 * 2 = 6, followed by 6 + 4 * 2 = 14, and then value of 14 + 5 * 2 = 24.
+
